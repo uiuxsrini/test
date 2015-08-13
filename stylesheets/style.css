@@ -161,7 +161,7 @@ a, a:hover {
 #mast-nav li > a {
     font-size: 24px;
     line-height: 31px;
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
     color: #000;
     font-weight: normal;
     margin-left: 10px;
@@ -179,7 +179,7 @@ a, a:hover {
 /* ===================================*/
 
 .main-heading {
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
     font-weight: normal;
     color: #E74C3C;
     font-size: 54px;
@@ -219,7 +219,7 @@ a, a:hover {
     font-size: 32px;
     line-height: 43px;
     color: #555;
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
 }
 
 .sub-heading-alt > span {
@@ -245,7 +245,7 @@ a, a:hover {
     font-size: 32px;
     line-height: 43px;
     color: #fff;
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
 }
 
 
@@ -256,7 +256,7 @@ a, a:hover {
 .page-section {
     min-height: 500px;
     padding-top: 120px;
-    padding-bottom: 120px;
+  /*  padding-bottom: 120px; */
 }
 
 /* ===================================*/
@@ -265,7 +265,7 @@ a, a:hover {
 /*HOME*/
 
 #home {
-    background: #0F2B37 url('../images/bg/01.jpg') center center repeat;
+    background: #0F2B37 url('../images/bg/005.jpg') center center repeat;
     background-size: cover;
     background-position: center top;
 }
@@ -283,12 +283,13 @@ a, a:hover {
 
 #intro h1 {
     display: none;
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
     font-weight: normal;
     color: #fff;
     margin-bottom: 30px;
-    font-size: 96px;
-    line-height: 96px;
+	margin-top: 30px;
+    font-size: 46px;
+    line-height: 60px;
 }
 
 #intro h2 > span {
@@ -331,7 +332,7 @@ a, a:hover {
 }
 
 #explore {
-    margin-top: 60px;
+    margin-top: 170px;
 }
 
 #explore a {
@@ -375,16 +376,16 @@ a, a:hover {
 }
 
 .swiper-slide h2 {
-    font-family: "Tex_B";
+    /* font-family: "Open_Sans_L"; */
     font-weight: normal;
     color: #fff;
-    font-size: 96px;
-    line-height: 96px;
+    font-size: 50px;
+    line-height: 50px;
     margin: 25px;
 }
 
 .swiper-slide h3 {
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
     margin: 25px;
     margin-bottom: 10px;
 }
@@ -393,8 +394,8 @@ a, a:hover {
     font-family: "Open_Sans_L";
     font-weight: normal;
     color: #fff;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 24px;
     margin: 25px;
     margin-top: 0px;
 }
@@ -577,7 +578,7 @@ ul#portfolioFilter li.separator {
 ul#portfolioFilter li a {
     font-size: 18px;
     color: #fff;
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
 }
 
 
@@ -627,7 +628,7 @@ div#portfolio_thumbs ul li div.item_info h3 {
     font-size: 24px;
     line-height: 31px;
     color: #FFF;
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
     font-weight: normal;
 }
 
@@ -673,7 +674,7 @@ div#portfolio_thumbs ul li div.item_info p {
     font-size: 24px;
     line-height: 31px;
     color: #FFF;
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
     font-weight: normal;
 }
 
@@ -1031,7 +1032,7 @@ fieldset h1 {
 .credits h3 {
     font-size: 36px;
     line-height: 43px;
-    font-family: "Tex_B";
+    font-family: "Open_Sans_L";
     color: #000;
     font-weight: normal;
 }
