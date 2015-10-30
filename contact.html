@@ -163,7 +163,7 @@
             <li class="menu-item "><a href="index.html">Home</a></li>
             <li class="menu-item"><a href="about.html">Meet the team</a></li>
             <li class="menu-item"><a href="gallery-masonry.html">Look Book</a></li>    
-            <li class="menu-item"><a href="#">Book A Home Visit</a></li>
+            <li class="menu-item"><a href="#" data-toggle="modal" data-target="#myModal">Book A Home Visit</a></li>
             <li class="menu-item current-menu-item"><a href="contact.html">Give Us A Shout Out</a></li>
         </ul>
 
@@ -225,6 +225,50 @@
     </div>
 </div>
 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">Book a Visit To Home</h5>
+      </div>
+      <div class="modal-body">
+       <div class="form-area">  
+        <form role="form">
+        <br style="clear:both">
+                    <p style="font-size: 14px;text-align:center">A good fitting suit needs Accurate Measurement,
+                            assessment of your occasion, the right colour for your personal style and most importantly a
+                            Trail and Fitting
+                            session before the finishing. We provide all this plus suit accompaniments at your place, at your convenience.
+                            Go ahead and book an appointment today, even if you just want to chat </p>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                    </div>
+                    
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="4"></textarea>
+                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+                    </div>
+            
+        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>
+        </form>
+    </div>
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+
 
 <script>
 
@@ -249,6 +293,7 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?cachebuster=31"></script>
 
 <!--?key=AIzaSyCOIZpq75uhgp0Rtw21KgsmTJLdkR3uRqw-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
 <link rel='stylesheet' property='stylesheet' type="text/css" href="dzsselector/dzsselector.css"/>
 <script src="dzsselector/dzsselector.js" type="text/javascript"></script>
 <script src="js/masonry.pkgd.min.js"></script>

@@ -146,6 +146,17 @@ h6 {
 .the-content-sheet-text .row.row-margin:last-child {
   margin-bottom: 11px; }
 
+
+  .red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+  padding: 10px 40px 60px;
+  border: 1px solid GREY;
+  }
+
 /* headings END */
 p {
   line-height: 1.84;
