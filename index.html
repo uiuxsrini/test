@@ -1,267 +1,615 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>UN-CUFFED</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+<meta charset="utf-8">
+<title>Upen Group</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="srinivas">
+
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<!-- Standard iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-touch-icon-57-precomposed.html" />
+<!-- Retina iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.html" />
+<!-- Standard iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.html" />
+<!-- Retina iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.html" />
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/extension.css" rel="stylesheet">
+<link href="assets/css/typography.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="stylesheets/responsive-nav.css" rel="stylesheet">
+<link href="stylesheets/team-grid.css" rel="stylesheet">
+<link href="stylesheets/service-grid.css" rel="stylesheet">
+<link href="stylesheets/prettyPhoto.css" rel="stylesheet"/>
+<link href="stylesheets/jquery.tweet.css" rel="stylesheet"/>
+<link href="stylesheets/idangerous.swiper.css" rel="stylesheet">
+<link href="stylesheets/responsive-nav.css" rel="stylesheet">
+<link href="stylesheets/animate.css" rel="stylesheet">
+<link href="stylesheets/style.css" rel="stylesheet">
+<!-- Initializing Animated Effects rules -->
+<link href="stylesheets/effects.css" rel="stylesheet">
 
 
-    <!-- - - main style scripts -->
-    <link rel='stylesheet' property='stylesheet' type="text/css" href="./bootstrap/bootstrap.min.css"/>
-    <link rel='stylesheet' property='stylesheet' type="text/css" href="./qcreative/qcreative.css"/>
-    <script src="js/jquery.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,400italic' rel='stylesheet' property='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' property='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' property='stylesheet' type='text/css'>
+<script src="javascripts/custom.modernizr.js"></script>
 
-
-    <script class="mainoptions">
-
-        // -- page options come here
-
-
-        window.qcreative_options = {
-            images_arr: ['img/home/1.jpg', 'img/home/2.jpg', 'img/home/13.jpg'] // -- the background
-            
-        ,enable_ajax: 'off' // -- enable "on" - ajax transition between pages / disable "off"
-        ,bg_isparallax: 'on' // -- apply a parallax effect on scroll
-        ,blur_ammount: 0 // -- the blur effect ammount
- 
-
-
-            // -- page options END here
-
-        };
-    </script>
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <link href="stylesheets/ie8.css" rel="stylesheet">
+<![endif]-->
 </head>
-<body class="page-homepage post-type-page content-align-center page-title-align-right page-title-style-1 menu-type-7">
 
 
-<!-- markup for background // do not modify -->
-<div class="main-bg-con">
-    <figure class="main-bg" style=""></figure>
-</div>
+<body>
 
-<div class="main-container">
-
-
-    <div class="the-content-con for-homepage">
-
-        <!-- descriptions for gallery items container -->
-        <div class="main-gallery--descs" style="height: 175px;">
-
-            <!-- description for first item start -->
-            <div class="main-gallery--desc">
-                <div class="desc-inner">
-
-                    <!-- blur markup -->
-                    <div class="translucent-con">
-                        <div class="translucent-bg" id="desc1-translucent-bg"></div>
-                        <canvas class="translucent-canvas"></canvas>
-                        <div class="translucent-overlay"></div>
-                    </div>
-                    <!-- blur markup END -->
-
-                        <span class="big-desc">CUSTOM ENGINEERED SUITS<br>FROM THE COMFORT OF YOUR HOME
-                </span>
-                    <span class="big-number">01</span>
-                </div>
-            </div>
-            <!-- description END -->
-
-
-            <!-- description for second item // style2 // start -->
-            <div class="main-gallery--desc style2">
-                <div class="desc-inner">
-
-                    <!-- blur markup -->
-                    <div class="translucent-con">
-                        <div class="translucent-bg"></div>
-                        <canvas class="translucent-canvas"></canvas>
-                        <div class="translucent-overlay"></div>
-                    </div>
-                    <!-- blur markup END -->
-
-                        <span class="big-desc">CLEAN AND CRISP<br>
-                    </span>
-                    <span class="big-number">02</span>
-                </div>
-            </div>
-            <!-- description END -->
-
-
-            <!-- description for third item start -->
-            <div class="main-gallery--desc">
-                <div class="desc-inner">
-
-                    <!-- blur markup -->
-                    <div class="translucent-con">
-                        <div class="translucent-bg"></div>
-                        <canvas class="translucent-canvas"></canvas>
-                        <div class="translucent-overlay"></div>
-                    </div>
-                    <!-- blur markup END -->
-
-                        <span class="big-desc">GET YOUR SUIT ON<br>
-                    </span>
-                    <span class="big-number">03</span>
-                </div>
-            </div>
-            <!-- description END -->
-
-
-           
-
-
-        </div>
-        <!-- descriptions for gallery items container END-->
-
-        <!-- buttons for next / previous markup -->
-        <div class="main-gallery-buttons-con style2">
-
-            <div class="prev-btn-con">
-                <span class="btn-text">PREVIOUS SLIDE</span>
-                <figure>
-                    <i class="fa fa-angle-left"></i>
-                </figure>
-            </div>
-            <div class="next-btn-con">
-                <span class="btn-text">NEXT SLIDE</span>
-                <figure>
-                    <i class="fa fa-angle-right"></i>
-                </figure>
-            </div>
-        </div>
-        <!-- buttons for next / previous markup END -->
+<!-- Mobile Only Navigation - 2 types each for (480px to 640px) and (640px to 960px) wide device screens -->
+<header id="mobile-header" class="hidden-desktop">
+    <div id="nav">
+      <ul class="clearfix">
+        <li><a class="scroll-link" href="#home" data-soffset="0">HOME</a></li>
+        <li><a class="scroll-link" href="#about" data-soffset="0">ABOUT</a></li>
+        <li><a class="scroll-link" href="#team" data-soffset="0">TEAM</a></li>
+        <li><a class="scroll-link" href="#portfolio" data-soffset="0">SOLUTIONS</a></li>
+        <li><a class="scroll-link" href="#contact" data-soffset="0">CONTACT</a></li>
+       
+      </ul>
     </div>
+</header>
 
 
+<!-- HEADER : STARTS -->
+<header id="masthead" class="hidden-tablet hidden-phone">
+<section class="container-fluid">
+    <div class="row-fluid">
 
-    <!-- this block is the navigation -->
-    <nav class="qcreative--nav-con">
-        <div class="translucent-con " style="">
-            <div class="translucent-bg for-parallaxer "></div>
-            <canvas class="translucent-canvas"></canvas>
-            <div class="translucent-overlay"></div>
-        </div>
+            <article class="span6 text-left">
+              <img alt="simple" title="simple" width='110' height='110'class="head-logo" src="images/uplogo.png" />
+            </article>
 
-        <!-- modify logo from here -->
-        <div class="logo-con">
-            <a href="index.html"><h4 style="color:white;font-style:bold;font-family:oswald">UN-CUFFED</h4></a>
-        </div>
-
-        <!-- this block will be populated by gallery thumbnail navigation -->
-        <ul class="the-actual-nav">
-            <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
-            <li class="menu-item"><a href="about.html">Meat the team</a></li>
-            <li class="menu-item"><a href="gallery-masonry.html">Look Book</a></li>    
-            <li class="menu-item"><a  href="#" data-toggle="modal" data-target="#myModal">Book A Home Visit</a></li>
-            <li class="menu-item"><a href="contact.html">Give Us A Shout Out</a></li>
-        </ul>
-
-        <div class="nav-social-con">
-            <p class="social-icons">
-                <a href="https://www.facebook.com/uncuffedclothing" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                <a href="https://in.pinterest.com/uncuffedclothin/" target="_blank"><i class="fa fa-pinterest"></i></a>
-                <a href="https://twitter.com/uncuffedC" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://instagram.com/uncuffedclothing/" target="_blank"><i class="fa fa-instagram"></i></a>
-            </p>
-            <p class="copyright-text">COPYRIGHT &copy; UN-CUFFED 2015</p>
-        </div>
-
-    </nav>
-
-    <!-- end navigation -->
-
-
-
-    <!-- preloader area -->
-    <div class="preloader-con">
-        <!--<i class="fa fa-spin fa-spinner"></i>-->
-        <div class="cube-preloader"></div>
-    </div>
-</div>
-
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h5 class="modal-title">Book a Visit To Home</h5>
-      </div>
-      <div class="modal-body">
-       <div class="form-area">  
-        <form role="form">
-        <br style="clear:both">
-                    <p style="font-size: 14px;text-align:center">A good fitting suit needs Accurate Measurement,
-                            assessment of your occasion, the right colour for your personal style and most importantly a
-                            Trail and Fitting
-                            session before the finishing. We provide all this plus suit accompaniments at your place, at your convenience.
-                            Go ahead and book an appointment today, even if you just want to chat </p>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-                    </div>
-                    
-                    <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="4"></textarea>
-                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
-                    </div>
+            <article class="span6 credits">
+              <ul id="mast-nav" class="text-right clearfix">
+                <li><a class="scroll-link active" href="#intro" id="intro-linker" data-soffset="90">HOME</a></li>
+                <li><a class="scroll-link" href="#about" id="about-linker" data-soffset="0">ABOUT</a></li>
+                <li><a class="scroll-link" href="#team" id="team-linker" data-soffset="0">TEAM</a></li>
+                <li><a class="scroll-link" href="#portfolio" id="portfolio-linker" data-soffset="0">SOLUTIONS</a></li>
+                <li><a class="scroll-link" href="#contact" id="contact-linker" data-soffset="0">CONTACT</a></li>
+              </ul>
+            </article>
             
-        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>
-        </form>
     </div>
-      </div>
-     
+</section>
+</header>
+
+
+<!-- HOME : STARTS -->
+<section id="home"  data-stellar-background-ratio="1.7">
+<section class="container-fluid">
+    <div class="row-fluid">
+
+      <section class="container">
+        <div class="row">
+          <article class="span12">
+            <div id="intro">
+              <div id="logo">
+                <img alt="Devops" title="Devops" width='300' height='300' src="images/uplogo.png" />
+              </div>
+              <h1>Solutions that unify development and operations to accelerate business innovation and meet market demands</h1>
+              <h2><span>An easy way to Automate your things.</span></h2>
+              <div id="explore" class="hidden-phone">
+                <a class="scroll scroll-link" href="#about" data-soffset="0"><img alt="simple" title="simple" src="images/scroll.png"/></a>
+              </div>
+          </div>
+          </article>
+        </div>
+      </section>
+          
     </div>
+  </section>
+</section>
+<!-- HOME : ENDS -->
 
-  </div>
-</div>
 
-<!--
-- - next will come the loaded scripts
--->
+<!-- ABOUT : STARTS -->
+<section id="about" class="page-section navigation-fadeIn"  data-stellar-background-ratio="2">
+<section class="container-fluid">
+    <div class="row-fluid">
+
+      <section class="container">
+
+        <div class="row">
+          <article class="span12 text-center fx fx-fadeInDownBig">
+            <h1 class="main-heading">About Us</h1>
+           <!-- <h2 class="sub-heading"><span>Smartness has a new name</span></h2>-->
+          </article>
+        </div>
+
+        <div class="row add-top fx fx-fadeInUpBig">
+          <article class="span10 offset1 text-center">
+			 <p class="promo-text">Smart, as the name says is a <span>smart</span> creative theme where people can <span>easily Build Run and Deploy</span> yes we say, Smart! This is <span>possible</span> because we have technology solutions to be a perfectly minimal but stunningly <span>nice</span></p>
+          </article>
+        </div>
+
+      </section>
+
+
+          
+    </div>
+  </section>
+
+  <section id="services" class="add-top fx fx-fadeInUpBig">
+
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide simple-bg-three">
+                  <h2>Build</h2>
+                  <img alt="simple" title="simple" src="images/about/01.jpg"/>
+                  <h3>What we do</h3>
+                  <p>Building Practicing Continuous Integration allows you to detect errors quickly and locate them more easily.Implementing a successful CI practice within an organisation requires discipline, particularly when your development environment contains a significant amount of complexity.</p>
+                </div>
+                <div class="swiper-slide simple-bg-four">
+                  <h2>Test</h2>
+                  <img alt="simple" title="simple" src="images/about/02.jpg"/>
+                  <h3>What we do</h3>
+                  <p>Supporting high rates of change means that testing must be automated otherwise regression testing rapidly becomes the bottleneck.
+
+We believe in behaviour-driven development (BDD) as an alternative approach to test-driven development.
+
+BDD is an approach to automated testing that the whole team should understand.</p>
+                </div>
+                <div class="swiper-slide simple-bg-one">
+                  <h2>Release</h2>
+                  <img alt="simple" title="simple" src="images/about/03.jpg"/>
+                  <h3>What we do</h3>
+                  <p>Releasing software comes with risks, so trying to minimise those risks is a good idea.As well as reducing risk, being able to release early and often also helps products improve quickly.
+
+It removes barriers to quick experiments and rapid iteration.
+</p>
+                </div>
+                <div class="swiper-slide simple-bg-two">
+                  <h2>Deploy</h2>
+                  <img alt="simple" title="simple" src="images/about/04.jpg"/>
+                  <h3>What we do</h3>
+                  <p>Continuous Delivery changes the economics of the software delivery process, so it’s cheap and low-risk to release new versions of your software.
+
+Implementing Continuous Delivery means creating multiple feedback loops to ensure that high-quality software gets delivered to users more quickly.
+
+Our team will help you optimise your deployment process, ensuring that you can respond quickly to change without compromising quality.</p>
+                </div>
+                <div class="swiper-slide simple-bg-five">
+                  <h2>Operate</h2>
+                  <img alt="simple" title="simple" src="images/about/05.jpg"/>
+                  <h3>What we do</h3>
+                  <p>Any online service should have tools dedicated to alerting any problems to those running the service.
+
+These can be low-level issues involving the infrastructure supporting the service, to a sudden high rate of user errors.
+
+Knowing the current state of your service and infrastructure will help you to identify problems before they happen, as well as alert you to issues that need your immediate attention.</p>
+                </div>
+                <div class="swiper-slide simple-bg-six">
+                  <h2>Process</h2>
+                  <img alt="simple" title="simple" src="images/about/06.jpg"/>
+                  <h3>What we do</h3>
+                  <p>Upen Group will help you implement the effecient processes for building high-quality product.
+
+Our vast knowledge and wide range of experience in the software development industry and meturity model allows us to apply best practices to your product delivery processes.</p>
+                </div>
+                <div class="swiper-slide simple-bg-eight">
+                  <h2>Road Map</h2>
+                  <img alt="simple" title="simple" src="images/about/07.jpg"/>
+                  <h3>What we do</h3>
+                  <p>Clear understanding of the customer needs will be key for creating a successful digital service.
+
+Efficient roadmap can highlight potential problems early on.
+
+Our approach to roadmap will help you achieve incredible improvements to the way you build digital services.
+
+Plan each stage in advance using a repeatable, transparent and monitorable process.
+</p>
+                </div>
+               <!--  <div class="swiper-slide simple-bg-seven">
+                  <h2>inspire</h2>
+                  <img alt="simple" title="simple" src="images/about/08.jpg"/>
+                  <h3>What we do</h3>
+                  <p>Pellentesque id nunc tempus metus gravida luctus id sit amet ipsum. Fusce eleifend ipsum vel odio hendrerit eu auctor nibh dictum. Vivamus facilisis blandit ante id ultricies. Suspendisse id metus elit. Nullam odio leo, ornare ac porta et, suscipit non lectus. </p>
+                </div>
+              </div>
+              <div class="pagination"></div> -->
+            </div>
+   
+  </section>  
+
+
+</section>
+<!-- ABOUT : ENDS -->
+
+
+
+<!-- TEAM : STARTS -->
+<section id="team" class="page-section seperator-layer"  data-stellar-background-ratio="2">
+<section class="container-fluid">
+    <div class="row-fluid">
+
+      <section class="container">
+
+        <div class="row">
+          <article class="span12 text-center fx fx-fadeInLeftBig">
+            <h1 class="main-heading">A Simple Team</h1>
+            <h2 class="sub-heading-alt"><span>Simplicity has a new name</span></h2>
+          </article>
+        </div>
+
+        <div class="row add-top add-bottom fx fx-fadeInRightBig">
+          <article class="span10 offset1 text-center">
+              <p class="promo-text-alt">Our team is an <span>awesome</span> group of creative people with a love to create <span>amazing</span> things.</p>
+          </article>
+        </div>
+
+      </section>
+
+
+          
+    </div>
+  </section>
+
+  <section id="team-grid" class="add-top fx fx-bounceIn">
+    
+    <!--  grid:starts -->
+               <ul class="grid cs-style-3 clearfix">
+
+                  
+                  <li>
+                    <article class="team-block simple-bg-one">
+                      <img class="team-img" title="simple" alt="simple" src="images/team/03.jpg" >
+                      <section class="simple-bg-one team-info clearfix">
+                        
+                        <div class="team-info-content">
+                          <h3>Srinivas </h3>
+                          <div class="team-details">
+                            <h6>Founder &amp; CEO</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus.</p>
+                          </div>
+                        </div>
+
+                        <div class="team-info-icons">
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/01.png"/></a></div>
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/02.png"/></a></div>
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/03.png"/></a></div>
+                        </div>
+
+                      </section>  
+                      </article>
+                  </li>
+
+                  <li>
+                    <article class="team-block simple-bg-three">
+                      <img class="team-img" title="simple" alt="simple" src="images/team/04.jpg" >
+                      <section class="simple-bg-three team-info clearfix">
+                        
+                        <div class="team-info-content">
+                          <h3>Clara Fenn</h3>
+                          <div class="team-details">
+                            <h6>Developer</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus.</p>
+                          </div>
+                        </div>
+
+                        <div class="team-info-icons">
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/01.png"/></a></div>
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/02.png"/></a></div>
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/03.png"/></a></div>
+                        </div>
+                        
+                    </section>  
+                      </article>
+                  </li>
+
+                  <li>
+                    <article class="team-block simple-bg-two">
+                      <img class="team-img" title="simple" alt="simple" src="images/team/01.jpg" >
+                      <section class="simple-bg-two team-info clearfix">
+                        
+                        <div class="team-info-content">
+                          <h3>Mark Heinz</h3>
+                          <div class="team-details">
+                            <h6>Developer</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus.</p>
+                          </div>
+                        </div>
+
+                        <div class="team-info-icons">
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/01.png"/></a></div>
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/02.png"/></a></div>
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/03.png"/></a></div>
+                        </div>
+                        
+                    </section>  
+                      </article>
+                  </li>
+
+                  <li>
+                    <article class="team-block simple-bg-five">
+                      <img class="team-img" title="simple" alt="simple" src="images/team/02.jpg" >
+                      <section class="simple-bg-five team-info clearfix">
+                        
+                        <div class="team-info-content">
+                          <h3>Lucy Novac</h3>
+                          <div class="team-details">
+                            <h6>Developer</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus.</p>
+                          </div>
+                        </div>
+
+                        <div class="team-info-icons">
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/01.png"/></a></div>
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/02.png"/></a></div>
+                          <div><a href="#"><img alt="simple" title="simple" src="images/social/03.png"/></a></div>
+                        </div>
+                        
+                    </section>  
+                      </article>
+                  </li>
+
+                
+              </ul>
+               <!-- grid : ends -->
+   
+  </section>  
+
+
+</section>
+<!-- TEAM : ENDS -->
+
+<!-- PORTFOLIO : STARTS -->
+<section id="portfolio" class="page-section"  data-stellar-background-ratio="2">
+<section class="container-fluid">
+    <div class="row-fluid">
+
+      <section class="container">
+
+        <div class="row">
+          <article class="span12 text-center">
+            <h1 class="main-heading fx fx-bounceInDown">Few Smart Solutions</h1>
+          </article>
+        </div>
+
+        <div class="row add-top">
+          <article class="span10 offset1 text-center fx fx-bounceIn">
+              <p class="promo-text">Smart, as the name says is a <span>smart</span> creative theme where people can <span>easily Build Run and Deploy</span> yes we say, Smart! This is <span>possible</span> because we have technology solutions to be a perfectly minimal but stunningly <span>nice</span></p>
+          </article>
+        </div>
+
+      </section>
+
+
+          
+    </div>
+  </section>
+
+<section class="service-grid clearfix">
+
+          <ul class="cbp-ig-grid">
+          <li class="simple-bg-one">
+            <a href="#">
+              <span class="cbp-ig-icon cbp-ig-icon-shoe"><img alt="simple" title="simple" src="images/services/01.png"></span>
+              <h3 class="cbp-ig-title">Continous Integration and Testing</h3>
+              <span class="cbp-ig-category">21 Applications</span>
+            </a>
+          </li>
+          <li class="simple-bg-four">
+            <a href="#">
+              <span class="cbp-ig-icon cbp-ig-icon-shoe"><img alt="simple" title="simple" src="images/services/02.png"></span>
+              <h3 class="cbp-ig-title">Continous delivery and deployment</h3>
+              <span class="cbp-ig-category">35 Projects</span>
+            </a>
+          </li>
+          <li class="simple-bg-three">
+            <a href="#">
+              <span class="cbp-ig-icon cbp-ig-icon-shoe"><img alt="simple" title="simple" src="images/services/03.png"></span>
+              <h3 class="cbp-ig-title">Continous operations</h3>
+              <span class="cbp-ig-category">543 Clients</span>
+            </a>
+          </li>
+		  <li class="simple-bg-three">
+            <a href="#">
+              <span class="cbp-ig-icon cbp-ig-icon-shoe"><img alt="simple" title="simple" src="images/services/03.png"></span>
+              <h3 class="cbp-ig-title">Continous assessment</h3>
+              <span class="cbp-ig-category">543 Clients</span>
+            </a>
+          </li>
+          </ul>
+
+
+    </section>
+
+
+
+
+
+</section>
+<!-- PORTFOLIO : ENDS -->
+
+
+
+
+<!-- CONTACT : STARTS -->
+<section id="contact" class="page-section seperator-layer"  data-stellar-background-ratio="2">
+<section class="container-fluid">
+    <div class="row-fluid">
+
+      <section class="container">
+
+        <div class="row">
+          <article class="span12 text-center">
+            <h1 class="main-heading fx fx-fadeInRight">Contact Us</h1>
+          </article>
+        </div>
+
+        <div class="row add-top">
+          <article class="span10 offset1 text-center fx fx-bounceInUp">
+              <p class="promo-text-alt">Our team is an <span>awesome</span> group of creative people with a love to create <span>amazing</span> things.</p>
+          </article>
+        </div>
+
+        <div class="row add-top add-bottom">
+
+            <article class="span10 offset1 contact-panel fx fx-fadeInUpBig">
+
+               <div class="row-fluid">
+                <article class="span12 text-center">
+                            <div id="fname"  class="alert alert-error error">
+                            Name must not be empty
+                            </div>
+                            <div id="fmail" class="alert alert-error  error">
+                            Please provide a valid email
+                            </div>
+                            <div id="fmsg" class="alert alert-error  error">
+                            Message should not be empty
+                            </div>
+                        </article>
+                </div>
+
+              <form name="myform" id="contactForm" action="http://designova.net/simple/sendcontact.php" enctype="multipart/form-data" method="post"> 
+                <div class="row-fluid add-top-small">
+                  <article class="span12">
+                    <input size="100" type="text" name="name" id="name" placeholder="Name">
+                            <input type="text"  size="30" id="email" name="email" placeholder="email">
+                            <textarea  id="msg" rows="3" cols="40" name="message" placeholder="Message">Message</textarea>
+                            <button type="submit" name="submit" id="submit" class="btn btn-simple add-top-half">Send Message</button>
+                  </article>
+                </div>
+              </form>
+
+            </article>
+
+        </div>
+
+
+
+      </section> 
+
+          
+    </div>
+  </section>
+
+
+
+</section>
+<!-- CONTACT : ENDS -->
+
+
+
+
+
+<!-- FOOTER : STARTS -->
+<footer id="mastfoot">
+<section class="container-fluid">
+    <div class="row-fluid">
+            <article class="span6 credits text-left">
+              <h3>@twitter</h3>
+              <span class="liner">&nbsp;</span>
+              <article id="ticker" class="query"></article>
+            </article>
+
+
+            <article class="span6 text-right">
+              <img alt="simple" title="simple" class="foot-logo" width='110' height='110' src="images/uplogo.png" />
+              <p class="address-now">Upen Group<br/>
+                  Bangalore, Karnataka <br/>India +91
+                  </p>
+            </article>
+
+            
+    </div>
+    <div class="row-fluid">
+
+                <article class="span6 social-block text-left">
+                  <a href="#"><img alt="simple" title="simple" src="images/contact/01.png"/></a>
+                  <a href="#"><img alt="simple" title="simple" src="images/contact/02.png"/></a>
+                  <a href="#"><img alt="simple" title="simple" src="images/contact/03.png"/></a>
+                  <a href="#"><img alt="simple" title="simple" src="images/contact/04.png"/></a>
+                </article>
+
+                <article class="span6 copyright text-right">
+                  <p>Copyright &copy; 2015 Upen Group<br/>All rights reserved</p>
+                </article>
+
+
+              </div>
+</section>
+</footer>
+
+
+<script src="javascripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap-transition.js" ></script> 
+<script src="assets/js/bootstrap-alert.js" ></script> 
+<script src="assets/js/bootstrap-modal.js" ></script> 
+<script src="assets/js/bootstrap-dropdown.js" ></script> 
+<script src="assets/js/bootstrap-scrollspy.js" ></script> 
+<script src="assets/js/bootstrap-tab.js" ></script> 
+<script src="assets/js/bootstrap-tooltip.js" ></script> 
+<script src="assets/js/bootstrap-popover.js" ></script> 
+<script src="assets/js/bootstrap-button.js" ></script> 
+<script src="assets/js/bootstrap-collapse.js" ></script> 
+<script src="assets/js/bootstrap-carousel.js" ></script> 
+<script src="assets/js/bootstrap-typeahead.js" ></script> 
+<script src="assets/js/bootstrap-affix.js" ></script> 
+<script src="javascripts/jquery.mixitup.min.js"></script>
+<script src="javascripts/responsive-nav.js" type="text/javascript" ></script>
+<script src="javascripts/idangerous.swiper-2.0.min.js"></script>
+<script src="javascripts/jquery.stellar.js"></script>
+<script src="javascripts/jquery.flickr.js"></script>
+<script src="javascripts/jquery.instagram.js"></script>
+<script src="javascripts/prettyPhoto.js"></script>
+<script src="javascripts/flexslider.js"></script>
+<script src="javascripts/waypoints.min.js"></script>
+<script src="javascripts/jquery.tweet.js"></script>
+<script src="javascripts/portfolio.js"></script>
+<script src="javascripts/form-validation.js"></script>
+<script src="javascripts/responsive-nav.js"></script>
+<script src="javascripts/retina.js"></script>
+<script src="javascripts/effects.js"></script>
+<script src="javascripts/scroll.js"></script>
+<script src="javascripts/script.js"></script>
+
 <script>
-    $(document).ready(function(){ 
-    $('#characterLeft').text('140 characters left');
-    $('#message').keydown(function () {
-        var max = 140;
-        var len = $(this).val().length;
-        if (len >= max) {
-            $('#characterLeft').text('You have reached the limit');
-            $('#characterLeft').addClass('red');
-            $('#btnSubmit').addClass('disabled');            
-        } 
-        else {
-            var ch = max - len;
-            $('#characterLeft').text(ch + ' characters left');
-            $('#btnSubmit').removeClass('disabled');
-            $('#characterLeft').removeClass('red');            
-        }
-    });    
-});
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+        var navigation = responsiveNav("#nav", { // Selector: The ID of the wrapper
+          animate: true, // Boolean: Use CSS3 transitions, true or false
+          transition: 400, // Integer: Speed of the transition, in milliseconds
+          label: "Menu", // String: Label for the navigation toggle
+          insert: "after", // String: Insert the toggle before or after the navigation
+          customToggle: "", // Selector: Specify the ID of a custom toggle
+          openPos: "relative", // String: Position of the opened nav, relative or static
+          jsClass: "js", // String: 'JS enabled' class which is added to <html> el
+          init: function(){}, // Function: Init callback
+          open: function(){}, // Function: Open callback
+          close: function(){} // Function: Close callback
+        });
+    </script>
 
-<link rel='stylesheet' property='stylesheet' type="text/css" href="dzsselector/dzsselector.css"/>
-<script src="dzsselector/dzsselector.js" type="text/javascript"></script>
-<script src="advancedscroller/plugin.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/main.js"></script>
-<link href='advancedscroller/plugin.css' rel='stylesheet' property='stylesheet' type='text/css'>
-<link href='fontawesome/font-awesome.min.css' rel='stylesheet' property='stylesheet' type='text/css'>
-<script src="dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>
-<script src="dzsscroller/scroller.js" type="text/javascript"></script>
-<link rel='stylesheet' property='stylesheet' type="text/css" href="dzsscroller/scroller.css"/>
+
+<script>
+
+    var mySwiper = new Swiper('.swiper-container',{ 
+    mode:'horizontal',
+    pagination: false,
+    slidesPerView: 4,
+    loop: true,
+    autoplay: 3000,
+    calculateHeight: true
+    });
+  
+  </script>
+
+
+
+  
+
+
 </body>
+
+
 </html>

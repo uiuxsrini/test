@@ -1,0 +1,69 @@
+/* -----------------------------------------
+   Font-face:
+----------------------------------------- */
+@font-face{ 
+font-family:"Tex_R";
+src: url('fonts/texgyreheros/texgyreheros-regular-webfont.eot'); 
+src: 
+url('fonts/texgyreheros/texgyreheros-regular-webfontd41d.eot?#iefix') format('embedded-opentype'), 
+url('fonts/texgyreheros/texgyreheros-regular-webfont.woff') format('woff'), 
+url('fonts/texgyreheros/texgyreheros-regular-webfont.ttf') format('truetype'), 
+url('fonts/texgyreheros/texgyreheros-regular-webfont.svg#webfont') format('svg'); 
+}
+@font-face{ 
+font-family:"Tex_B";
+src: url('fonts/texgyreheros/texgyreheros-bold-webfont.eot'); 
+src: 
+url('fonts/texgyreheros/texgyreheros-bold-webfontd41d.eot?#iefix') format('embedded-opentype'), 
+url('fonts/texgyreheros/texgyreheros-bold-webfont.woff') format('woff'), 
+url('fonts/texgyreheros/texgyreheros-bold-webfont.ttf') format('truetype'), 
+url('fonts/texgyreheros/texgyreheros-bold-webfont.svg#webfont') format('svg'); 
+}
+
+
+@font-face{ 
+font-family:"Roboto_L";
+src: url('fonts/roboto/Roboto-Light-webfont.eot'); 
+src: 
+url('fonts/roboto/Roboto-Light-webfontd41d.eot?#iefix') format('embedded-opentype'), 
+url('fonts/roboto/Roboto-Light-webfont.woff') format('woff'), 
+url('fonts/roboto/Roboto-Light-webfont.ttf') format('truetype'), 
+url('fonts/roboto/Roboto-Light-webfont.svg#webfont') format('svg'); 
+}
+@font-face{ 
+font-family:"Roboto_B";
+src: url('fonts/roboto/Roboto-Bold-webfont.eot'); 
+src: 
+url('fonts/roboto/Roboto-Bold-webfontd41d.eot?#iefix') format('embedded-opentype'), 
+url('fonts/roboto/Roboto-Bold-webfont.woff') format('woff'), 
+url('fonts/roboto/Roboto-Bold-webfont.ttf') format('truetype'), 
+url('fonts/roboto/Roboto-Bold-webfont.svg#webfont') format('svg'); 
+}
+@font-face{ 
+font-family:"Open_Sans_B";
+src: url('fonts/open_sans/OpenSans-Bold-webfont.eot'); 
+src: 
+url('fonts/open_sans/OpenSans-Bold-webfontd41d.eot?#iefix') format('embedded-opentype'), 
+url('fonts/open_sans/OpenSans-Bold-webfont.woff') format('woff'), 
+url('fonts/open_sans/OpenSans-Bold-webfont.ttf') format('truetype'), 
+url('fonts/open_sans/OpenSans-Bold-webfont.svg#webfont') format('svg'); 
+}
+@font-face{ 
+font-family:"Open_Sans_R";
+src: url('fonts/open_sans/OpenSans-Regular-webfont.eot'); 
+src: 
+url('fonts/open_sans/OpenSans-Regular-webfontd41d.eot?#iefix') format('embedded-opentype'), 
+url('fonts/open_sans/OpenSans-Regular-webfont.woff') format('woff'), 
+url('fonts/open_sans/OpenSans-Regular-webfont.ttf') format('truetype'), 
+url('fonts/open_sans/OpenSans-Regular-webfont.svg#webfont') format('svg'); 
+}
+@font-face{ 
+font-family:"Open_Sans_L";
+src: url('fonts/open_sans/OpenSans-Light-webfont.eot'); 
+src: 
+url('fonts/open_sans/OpenSans-Light-webfontd41d.eot?#iefix') format('embedded-opentype'), 
+url('fonts/open_sans/OpenSans-Light-webfont.woff') format('woff'), 
+url('fonts/open_sans/OpenSans-Light-webfont.ttf') format('truetype'), 
+url('fonts/open_sans/OpenSans-Light-webfont.svg#webfont') format('svg'); 
+}
+
